@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-commerce Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My E-commerce Store</h1>
+    <input type="text" id="search" placeholder="Search products">
+    <select id="filter">
+      <option value="all">All</option>
+      <option value="type1">Type 1</option>
+      <option value="type2">Type 2</option>
+      </select>
+    <button id="sort-asc">Sort by Price (Ascending)</button>
+    <button id="sort-desc">Sort by Price (Descending)</button>
+  </header>
+  <main>
+    <div id="product-list"></div>
+    <div id="cart">
+      <h2>Cart</h2>
+      <ul id="cart-items"></ul>
+      <p id="total">Total: $0.00</p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
